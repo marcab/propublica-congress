@@ -18,7 +18,7 @@ setup(
     long_description = README,
     author = "Chris Amico",
     author_email = "eyeseast@gmail.com",
-    py_modules = ['congress'],
+    packages = ['congress'],
     install_requires = ['httplib2', 'six'],
     platforms= ['any'],
     classifiers = [
